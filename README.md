@@ -16,3 +16,28 @@ The goal of this project is to analyze patterns in survival rates and explore re
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?logo=matplotlib&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/-Seaborn-42A5F5?logo=python&logoColor=white)
+
+## 📊 Features
+
+- ✅ **100 Visualization Plots**:
+  - Histograms, KDE plots
+  - Box plots, Violin plots, Strip plots
+  - Count plots, Swarm plots
+  - Scatter and line charts
+  - Pie charts and bar charts
+  - Regression plots and joint plots
+  - Correlation heatmaps and pivot plots
+  - FacetGrid and CatPlots
+
+- 🎨 **Colorful Themes & Palettes**:
+  - Wide use of Seaborn color palettes like `coolwarm`, `Set1`, `Paired`, `flare`, `crest`, etc.
+
+- 🧠 **Insights Derived**:
+  - Survival rates across sex, class, embarkation port
+  - Age and fare distributions
+  - Effect of traveling alone, family aboard, and more
+
+## 📂 Dataset
+
+- **Source**: Built-in `titanic` dataset from Seaborn
+- **Loaded via**: `sns.load_dataset("titanic")`
